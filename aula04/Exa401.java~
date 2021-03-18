@@ -1,6 +1,0 @@
-System.out.println("Tecle \"Enter\" para terminar.");
-    try{
-          System.in.read();
-    } catch (Exception erro) {
-       erro.printStackTrace();
-}
