@@ -1,0 +1,7 @@
+class NumeroStatico {
+// o que precisa para compilar
+        int x = 37;
+        public static void main(String [] args) {
+            System.out.println("valor de x: "+x);
+        }
+    }

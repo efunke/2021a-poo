@@ -1,0 +1,13 @@
+class Excecao1 {
+ public static void main(String[] args)
+ {
+  int i =0;
+  try {
+   i = i/i;
+  } catch (Exception e) {
+   System.out.println("Erro " + e.getClass() + " mem: " + e.getMessage());
+  }
+  System.out.println("Fim.");
+ }
+
+}

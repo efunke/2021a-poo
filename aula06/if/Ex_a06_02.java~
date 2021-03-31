@@ -1,0 +1,27 @@
+import java.util.*;
+class Ex_a06_02
+{
+ public static void main (String args[])
+ {
+ 
+ int a=0;
+ Scanner teclado = new Scanner(System.in);
+ System.out.println("Programa que testa dois numeros");
+ a = teclado.nextInt("Informe o valor do primeiro numero");
+ int b = teclado.nextInt("Informe o valor do segundo numero");
+//Agora vamos testar os dois valores
+  if (a == b)
+  {
+    System.out.println("Os dois numeros sao iguais");
+//verificar se o primeiro e maior
+  }else{
+        if (a > b)
+        {
+          System.out.println("Os primeiro numero he maior");
+//verificar se o segundo e maior
+        }else{
+          System.out.println("Os segundo numeros he maior");
+        }
+  }
+ }
+}
